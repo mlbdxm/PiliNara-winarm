@@ -21,7 +21,7 @@ version: 2.0.9+1
 
 environment:
   sdk: ">=3.12.0"
-  flutter: 3.44.2
+  flutter: 3.46.0-0.1.pre         #3.44.2
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -107,7 +107,7 @@ dependencies:
       url: https://github.com/bggRGjQaUbCoE/flutter_sortable_wrap.git
       ref: master
   flutter_svg: ^2.0.14
-  flutter_volume_controller: ^2.0.0
+  flutter_volume_controller: 2.0.1
   font_awesome_flutter:
     git:
       url: https://github.com/bggRGjQaUbCoE/font_awesome_flutter.git
@@ -116,6 +116,7 @@ dependencies:
     git:
       url: https://github.com/Starfallan/getx.git
       ref: version_4.7.2_patch
+  gt3_flutter_plugin: ^0.1.0
   hashlib: ^1.12.0
   hive_ce: ^2.19.3
   html: ^0.15.4
@@ -215,14 +216,15 @@ dependency_overrides:
       ref: version_1.2.5
   media_kit_libs_windows_video:
     git:
-      url: https://github.com/My-Responsitories/media-kit.git
+      url: https://github.com/mlbdxm/media-kit-winarm.git
       path: libs/windows/media_kit_libs_windows_video
-      ref: version_1.2.5
+      ref: main
+ 
   media_kit_native_event_loop:
     git:
-      url: https://github.com/My-Responsitories/media-kit.git
+      url: https://github.com/mlbdxm/media-kit-winarm.git
       path: media_kit_native_event_loop
-      ref: version_1.2.5
+      ref: main
   media_kit_video:
     git:
       url: https://github.com/My-Responsitories/media-kit.git
@@ -232,7 +234,7 @@ dependency_overrides:
     git:
       url: https://github.com/bggRGjQaUbCoE/screen_brightness.git
       path: screen_brightness_android
-      ref: main
+      ref: develop
 
 dev_dependencies:
   flutter_test:
